@@ -1,0 +1,262 @@
+
+[
+  {
+    "id": "india",
+    "name": "India",
+    "quadrant": "Double Whammy",
+    "provision": 2,
+    "freedom": 4,
+    "summary": "A 'Double Whammy' of state provisional failure and societal cultural oppression. The deal is high chaos and low agency in exchange for the fragile consolations of a democratic political identity.",
+    "details": "The state fails in its primary provisional duty—delivering a high-quality, low-friction, dignified public sphere (infrastructure, safety, justice). Society fails in its liberal duty—granting individuals the freedom to live sovereign lives. For many, the result is being simultaneously crushed by oppressive social order and left unprotected by a neglectful state."
+  },
+  {
+    "id": "switzerland",
+    "name": "Switzerland",
+    "quadrant": "Calibration Delta",
+    "provision": 9,
+    "freedom": 9,
+    "summary": "World-class provision and strong personal freedom; a consensual, high-trust civic culture.",
+    "details": "Highly effective state capacity, direct democracy mechanisms, and neutral foreign policy combine to deliver stability and dignity in daily life. Cultural style is reserved and rules-oriented, but broadly 'live and let live.'"
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "quadrant": "Calibration Delta",
+    "provision": 8,
+    "freedom": 9,
+    "summary": "High-freedom, high-provision liberal democracy with multicultural norms.",
+    "details": "Robust public services and social safety nets, liberal social policy, and immigrant-friendly culture; trade-offs include regulatory friction and cost of living in major cities."
+  },
+  {
+    "id": "uae",
+    "name": "United Arab Emirates",
+    "quadrant": "Gilded Cage",
+    "provision": 8,
+    "freedom": 1,
+    "summary": "High material provision and order with tightly constrained political freedoms.",
+    "details": "Exemplifies the Gulf 'single failure': exceptional infrastructure and safety for citizens and residents, with limited political participation and speech freedoms."
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar",
+    "quadrant": "Gilded Cage",
+    "provision": 8,
+    "freedom": 1,
+    "summary": "High-provision petrostate with restrictive civic freedoms.",
+    "details": "Generous public services and wealth with constrained political rights; social space varies by context and community."
+  },
+  {
+    "id": "bahrain",
+    "name": "Bahrain",
+    "quadrant": "Gilded Cage",
+    "provision": 7,
+    "freedom": 2,
+    "summary": "Relatively liberal socially within the Gulf, but politically constrained; decent provision.",
+    "details": "Finance-oriented Gulf hub with a somewhat more open social scene; political dissent remains tightly controlled."
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "quadrant": "Gilded Cage",
+    "provision": 9,
+    "freedom": 1,
+    "summary": "A 'Gilded Cage' where citizens trade all personal and political freedom for immense material comfort, security, and state-provided prosperity.",
+    "details": "A coherent single-failure model: spectacular provisional success and a clear deal—freedom is traded for order, growth, and stability."
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "quadrant": "Calibration Delta",
+    "provision": 8,
+    "freedom": 8,
+    "summary": "A high-provision, high-freedom society. The 'deal' involves navigating a 'Calibration Delta' of subtle differences in communication style and cultural values (ambition vs. gezelligheid)."
+  },
+  {
+    "id": "usa",
+    "name": "United States",
+    "quadrant": "Wild West / Ideological Battlefield",
+    "provision": 7,
+    "freedom": 9,
+    "summary": "A high-freedom, moderate-provision society. The 'deal' is a 'Wild West' of high agency and opportunity, but with an unexamined system of privilege and a 'fight to win' ideological culture."
+  },
+  {
+    "id": "pakistan",
+    "name": "Pakistan",
+    "quadrant": "Severe Double Whammy",
+    "provision": 1,
+    "freedom": 2,
+    "summary": "A more extreme 'Double Whammy' than India. The state is less functional and the society is more oppressive, with fewer compensating strengths.",
+    "details": "Catastrophic provisional failure (weak civilian state, military dominance, periodic economic crises) combined with more rigid cultural-religious controls (including blasphemy laws). The deal is unequivocally worse than India's."
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "quadrant": "Gilded Cage",
+    "provision": 9,
+    "freedom": 5,
+    "summary": "Single-failure model: spectacular state provision with intense intra-group conformity pressures.",
+    "details": "A masterpiece of public order, safety, and infrastructure. But the social script is rigid; conformity (wa) is paramount. Psychological pressure and social shame dynamics contribute to high stress and, tragically, elevated suicide rates."
+  },
+  {
+    "id": "south-korea",
+    "name": "South Korea",
+    "quadrant": "Gilded Cage",
+    "provision": 8,
+    "freedom": 5,
+    "summary": "Hybrid: state-level provisional success with extreme societal competition and conformity.",
+    "details": "A hyper-competitive education and corporate tournament creates relentless psychological pressure. While the state provides, the social rat race diminishes quality of life—'Double Failure Lite.'"
+  },
+  {
+    "id": "thailand",
+    "name": "Thailand",
+    "quadrant": "Wild West",
+    "provision": 6,
+    "freedom": 7,
+    "summary": "High social freedom with mixed provision and chronic political instability.",
+    "details": "'Live and let live' socially, decent infrastructure and universal healthcare, but a rigid monarchy boundary and periodic coups."
+  },
+  {
+    "id": "philippines",
+    "name": "Philippines",
+    "quadrant": "Wild West",
+    "provision": 3,
+    "freedom": 8,
+    "summary": "Significant state dysfunction but very high personal and social freedom.",
+    "details": "A high-agency, high-chaos environment—corruption and weak rule of law balanced by expressive, open culture."
+  },
+  {
+    "id": "north-korea",
+    "name": "North Korea",
+    "quadrant": "Severe Double Whammy",
+    "provision": 1,
+    "freedom": 0,
+    "summary": "The purest expression of the Double Whammy—totalitarian oppression with systemic deprivation.",
+    "details": "Near-total failure in provision and total failure in freedom; a closed police state with periodic famine and deep poverty."
+  },
+  {
+    "id": "afghanistan",
+    "name": "Afghanistan",
+    "quadrant": "Severe Double Whammy",
+    "provision": 1,
+    "freedom": 1,
+    "summary": "Collapsed state capacity with highly oppressive social and political order.",
+    "details": "Conflict, economic collapse, and extreme restrictions—particularly on women—create a near-total trap."
+  },
+  {
+    "id": "iran",
+    "name": "Iran",
+    "quadrant": "Double Whammy",
+    "provision": 4,
+    "freedom": 1,
+    "summary": "A repressive theocracy with a struggling, sanction-hit economy.",
+    "details": "Limited provision due to mismanagement and sanctions; freedom failure via religious authoritarianism."
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "quadrant": "Double Whammy",
+    "provision": 4,
+    "freedom": 2,
+    "summary": "Military-led authoritarianism with creaking state provision.",
+    "details": "Large population, economic crises, and low tolerance for dissent produce low agency and high friction."
+  },
+  {
+    "id": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "quadrant": "Gilded Cage",
+    "provision": 8,
+    "freedom": 1,
+    "summary": "High material provision with strict social and political controls.",
+    "details": "Representative of Gulf 'single failure'—clear trade of freedom for provision for citizens."
+  },
+  {
+    "id": "venezuela",
+    "name": "Venezuela",
+    "quadrant": "Double Whammy",
+    "provision": 1,
+    "freedom": 2,
+    "summary": "Economic collapse under authoritarian rule.",
+    "details": "Severe shortages, hyperinflation, and repression combine to reduce both agency and material baseline."
+  },
+  {
+    "id": "russia",
+    "name": "Russia",
+    "quadrant": "Double Whammy",
+    "provision": 5,
+    "freedom": 2,
+    "summary": "Personalistic autocracy with corrupt, unreliable provision outside showcase centers.",
+    "details": "Core infrastructure works in hubs, but rule of law and freedom are compromised; war intensifies repression."
+  },
+  {
+    "id": "yemen",
+    "name": "Yemen",
+    "quadrant": "Severe Double Whammy",
+    "provision": 1,
+    "freedom": 1,
+    "summary": "Civil war and humanitarian crisis produce the extreme double whammy.",
+    "details": "State collapse and factional oppression eliminate both order and freedom."
+  },
+  {
+    "id": "syria",
+    "name": "Syria",
+    "quadrant": "Severe Double Whammy",
+    "provision": 1,
+    "freedom": 1,
+    "summary": "War-torn authoritarianism with destroyed provision.",
+    "details": "A brutal conflict zone with pervasive repression and broken public services."
+  },
+  {
+    "id": "somalia",
+    "name": "Somalia",
+    "quadrant": "Severe Double Whammy",
+    "provision": 1,
+    "freedom": 1,
+    "summary": "Fragmented authority and chronic insecurity.",
+    "details": "Weak central provision and oppressive local power structures."
+  },
+  {
+    "id": "sudan",
+    "name": "Sudan",
+    "quadrant": "Severe Double Whammy",
+    "provision": 1,
+    "freedom": 1,
+    "summary": "Conflict, coups, and repression.",
+    "details": "State breakdown and violent politics undermine both axes."
+  },
+  {
+    "id": "dr-congo",
+    "name": "DR Congo",
+    "quadrant": "Double Whammy",
+    "provision": 2,
+    "freedom": 3,
+    "summary": "Resource-rich but provision-poor with local oppressions.",
+    "details": "Corruption, conflict, and weak state capacity produce high friction and low agency."
+  },
+  {
+    "id": "nigeria",
+    "name": "Nigeria",
+    "quadrant": "Double Whammy",
+    "provision": 3,
+    "freedom": 4,
+    "summary": "High variance by region; structural double whammy in parts.",
+    "details": "Security issues, corruption, and conservative norms reduce both provision and freedom in many regions."
+  },
+  {
+    "id": "mali",
+    "name": "Mali",
+    "quadrant": "Double Whammy",
+    "provision": 2,
+    "freedom": 3,
+    "summary": "State weakness and insurgency constrain both axes.",
+    "details": "Sahel instability with shrinking civic space."
+  },
+  {
+    "id": "niger",
+    "name": "Niger",
+    "quadrant": "Double Whammy",
+    "provision": 2,
+    "freedom": 3,
+    "summary": "Coup dynamics and provision gaps.",
+    "details": "Low baseline services and rising authoritarian drift."
+  }
+]
