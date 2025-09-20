@@ -10,6 +10,24 @@
     "details": "The state fails in its primary provisional duty—delivering a high-quality, low-friction, dignified public sphere (infrastructure, safety, justice). Society fails in its liberal duty—granting individuals the freedom to live sovereign lives. For many, the result is being simultaneously crushed by oppressive social order and left unprotected by a neglectful state."
   },
   {
+    "id": "brazil",
+    "name": "Brazil",
+    "quadrant": "Wild West",
+    "provision": 5,
+    "freedom": 7,
+    "summary": "Large democracy with high social freedom and uneven provision; high inequality and security challenges.",
+    "details": "A high-agency, high-variance environment. Strong cultural dynamism and civic freedoms offset by crime, inequality, and uneven state capacity across regions."
+  },
+  {
+    "id": "south-africa",
+    "name": "South Africa",
+    "quadrant": "Wild West",
+    "provision": 4,
+    "freedom": 7,
+    "summary": "Democratic and pluralistic with strong rights; provision hampered by inequality, crime, and infrastructure stresses.",
+    "details": "Robust constitutional framework and social freedoms. Persistent service delivery gaps, load-shedding, and crime shape quality-of-life outcomes across provinces."
+  },
+  {
     "id": "switzerland",
     "name": "Switzerland",
     "quadrant": "Calibration Delta",

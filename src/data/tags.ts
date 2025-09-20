@@ -28,7 +28,8 @@ export const countryTags: Record<string, string[]> = {
   nigeria: ["Africa", "WestAfrica", "OPEC", "Hybrid"],
   mali: ["Africa", "WestAfrica", "Authoritarian"],
   niger: ["Africa", "WestAfrica", "Authoritarian"],
+  brazil: ["SouthAmerica", "BRICS", "G20", "Mercosur", "Democracy"],
+  "south-africa": ["Africa", "SouthernAfrica", "BRICS", "G20", "Democracy"],
 };
 
 export default countryTags;
-
