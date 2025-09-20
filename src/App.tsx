@@ -12,22 +12,35 @@ import PresetBar from './components/PresetBar';
 // Define the type for a single country object
 
 function App() {
-  const baseCountries: Country[] = featuredCountries.length ? featuredCountries : countriesData;
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedQuadrants, setSelectedQuadrants] = useState<string[]>([]);
   const [provRange, setProvRange] = useState<[number, number]>([0, 10]);
   const [freeRange, setFreeRange] = useState<[number, number]>([0, 10]);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+
+  // Show curated set by default; switch to full dataset when any filter/selection is active
+  const defaultMode =
+    selectedTags.length === 0 &&
+    selectedQuadrants.length === 0 &&
+    provRange[0] === 0 && provRange[1] === 10 &&
+    freeRange[0] === 0 && freeRange[1] === 10 &&
+    selectedIds.size === 0;
+
+  const baseCountries: Country[] = defaultMode && featuredCountries.length
+    ? featuredCountries
+    : countriesData;
+
+  // Build filter options from the full dataset so presets like "Europe" always exist
   const allTags = useMemo(() => {
     const s = new Set<string>();
-    baseCountries.forEach((c) => (c.tags || []).forEach((t) => s.add(t)));
+    countriesData.forEach((c) => (c.tags || []).forEach((t) => s.add(t)));
     return Array.from(s).sort();
-  }, [baseCountries]);
+  }, []);
   const allQuadrants = useMemo(() => {
     const s = new Set<string>();
-    baseCountries.forEach((c) => s.add(c.quadrant));
+    countriesData.forEach((c) => s.add(c.quadrant));
     return Array.from(s).sort();
-  }, [baseCountries]);
+  }, []);
   const countriesByTags: Country[] = useMemo(() => {
     if (selectedTags.length === 0) return baseCountries;
     const need = selectedTags;
